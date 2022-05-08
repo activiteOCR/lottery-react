@@ -73,7 +73,7 @@ function App() {
       <p>
         This contract is managed by {manager}. There are currently {players}
         {"/"}
-        {(web3.utils.fromWei(prizePool, "ether") / 90) * 100000} people entered,
+        {(web3.utils.fromWei(prizePool, "ether") / 90) * 4000} people entered,
         competing to win {web3.utils.fromWei(prizePool, "ether")} ether!
       </p>
 
